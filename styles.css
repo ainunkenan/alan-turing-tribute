@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap");
+
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #343a40;
+  background-color: #ced4da;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header #title {
+  font-size: 8rem;
+  margin: 0;
+}
+
+header .desc {
+  line-height: 1px;
+  font-size: 4rem;
+  color: maroon;
+}
+
+figure {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.fig-img,
+#image {
+  align-self: center;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 60%;
+}
+.src-img,
+#img-caption {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: maroon;
+  font-style: italic;
+  font-size: 0.95rem;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+a:visited,
+a:link {
+  color: maroon;
+}
+.intro-text {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+#main {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.title-sub {
+  margin-bottom: 2rem;
+  font-size: 3.7rem;
+  color: maroon;
+}
+
+p {
+  font-size: 2rem;
+  padding: 10px;
+}
+
+footer {
+  background-color: #edf2fb;
+  text-align: center;
+}
+
+@media (max-width: 320px) {
+  header #title {
+    font-size: 4rem;
+  }
+
+  header .desc,
+  .title-sub {
+    font-size: 1.7rem;
+    text-wrap: wrap;
+  }
+
+  .fig-img,
+  #image {
+    width: 100%;
+  }
+  .src-img,
+  #img-caption {
+    font-size: 0.95rem;
+  }
+
+  .intro-text,
+  p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 375px) {
+  header #title {
+    font-size: 4rem;
+  }
+
+  header .desc,
+  .title-sub {
+    font-size: 1.7rem;
+    text-wrap: wrap;
+  }
+
+  .fig-img,
+  #image {
+    width: 100%;
+  }
+  .src-img,
+  #img-caption {
+    font-size: 0.95rem;
+  }
+
+  .intro-text,
+  p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 425px) {
+  header #title {
+    font-size: 4rem;
+  }
+
+  header .desc,
+  .title-sub {
+    font-size: 1.7rem;
+    text-wrap: wrap;
+  }
+
+  .fig-img,
+  #image {
+    width: 100%;
+  }
+  .src-img,
+  #img-caption {
+    font-size: 0.95rem;
+  }
+
+  .intro-text,
+  p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 767px) {
+  header #title {
+    font-size: 4.2rem;
+  }
+
+  header .desc,
+  .title-sub {
+    font-size: 2rem;
+    text-wrap: wrap;
+  }
+
+  .fig-img,
+  #image {
+    width: 100%;
+  }
+  .src-img,
+  #img-caption {
+    font-size: 1rem;
+  }
+
+  .intro-text,
+  p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  header #title {
+    font-size: 4.8rem;
+  }
+
+  header .desc,
+  .title-sub {
+    font-size: 2.7rem;
+    text-wrap: wrap;
+  }
+
+  .fig-img,
+  #image {
+    width: 100%;
+  }
+  .src-img,
+  #img-caption {
+    font-size: 1.3rem;
+  }
+
+  .intro-text,
+  p {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  header #title {
+    font-size: 5.2rem;
+  }
+
+  header .desc,
+  .title-sub {
+    font-size: 3.2rem;
+    text-wrap: wrap;
+  }
+
+  .fig-img,
+  #image {
+    width: 100%;
+  }
+  .src-img,
+  #img-caption {
+    font-size: 1.5rem;
+  }
+
+  .intro-text,
+  p {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  header #title {
+    font-size: 6rem;
+  }
+
+  header .desc,
+  .title-sub {
+    font-size: 3.5rem;
+    text-wrap: wrap;
+  }
+
+  .fig-img,
+  #image {
+    width: 100%;
+  }
+  .src-img,
+  #img-caption {
+    font-size: 1.8rem;
+  }
+
+  .intro-text,
+  p {
+    font-size: 3.3rem;
+  }
+}
